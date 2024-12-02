@@ -3,7 +3,7 @@
     "keyboard_name": "WerleDactyl",
     "features": {
         "bootmagic": true,
-        "command": false,
+        "command": true,
         "console": true,
         "dynamic_tapping_term": true,
         "encoder": false,
@@ -33,14 +33,17 @@
             "matrix": [0, 0]	
     	}
     },
+	   "tapping": {
+        "term": 210
+    },
     "layouts": {
         "LAYOUT": {
             "layout": [
                 {"matrix": [0, 0], "x": 0, "y": 0},
                 {"matrix": [0, 1], "x": 1, "y": 0},
                 {"matrix": [0, 2], "x": 2, "y": 0},
-                {"matrix": [0, 3], "x": 3, "y": 0},
-                {"matrix": [0, 4], "x": 4, "y": 0},
+				{"matrix": [0, 3], "x": 3, "y": 0},
+				{"matrix": [0, 4], "x": 4, "y": 0},
 
                 {"matrix": [5, 4], "x": 5, "y": 0},
                 {"matrix": [5, 3], "x": 6, "y": 0},
@@ -72,7 +75,6 @@
                 {"matrix": [7, 1], "x": 8, "y": 2},
                 {"matrix": [7, 0], "x": 9, "y": 2},
 
-                {"matrix": [3, 0], "x": 0, "y": 3},
                 {"matrix": [3, 1], "x": 1, "y": 3},
                 {"matrix": [3, 2], "x": 2, "y": 3},
                 {"matrix": [3, 3], "x": 3, "y": 3},
@@ -82,19 +84,16 @@
                 {"matrix": [8, 3], "x": 6, "y": 3},
 				{"matrix": [8, 2], "x": 7, "y": 3},
                 {"matrix": [8, 1], "x": 8, "y": 3},
-                {"matrix": [8, 0], "x": 9, "y": 3},
-
-                {"matrix": [4, 0], "x": 0, "y": 4},
+           
                 {"matrix": [4, 1], "x": 1, "y": 4},
-                {"matrix": [4, 2], "x": 2, "y": 4},
-                {"matrix": [4, 3], "x": 3, "y": 4},
                 {"matrix": [4, 4], "x": 4, "y": 4},
-
-                {"matrix": [9, 4], "x": 5, "y": 4},
+				{"matrix": [9, 4], "x": 5, "y": 4},
+				{"matrix": [9, 1], "x": 8, "y": 4}, 
+				
+				{"matrix": [4, 2], "x": 2, "y": 4},
+                {"matrix": [4, 3], "x": 3, "y": 4},
                 {"matrix": [9, 3], "x": 6, "y": 4},
-				{"matrix": [9, 2], "x": 7, "y": 4},
-                {"matrix": [9, 1], "x": 8, "y": 4},
-                {"matrix": [9, 0], "x": 9, "y": 4}
+				{"matrix": [9, 2], "x": 7, "y": 4}			
             ]
         }
     }
