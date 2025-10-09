@@ -26,7 +26,7 @@
 
 /* Allows for more than the default 4 layers in VIA. */
 #ifndef DYNAMIC_KEYMAP_LAYER_COUNT
-#    define DYNAMIC_KEYMAP_LAYER_COUNT 4
+#    define DYNAMIC_KEYMAP_LAYER_COUNT 5
 #endif
 
 
