@@ -10,10 +10,10 @@
 
 /* Use full duplex communication (TRRS) */
 #define SERIAL_USART_FULL_DUPLEX 
-//#define SERIAL_USART_TX_PIN GP16
-//#define SERIAL_USART_RX_PIN GP17
-#define SERIAL_USART_TX_PIN GP22
-#define SERIAL_USART_RX_PIN GP20
+#define SERIAL_USART_TX_PIN GP16
+#define SERIAL_USART_RX_PIN GP17
+//#define SERIAL_USART_TX_PIN GP22 // ALT Pins for dead GPIO
+//#define SERIAL_USART_RX_PIN GP20 // 
 
 /* Swap TX and RX pins if keyboard is master half. Only available on some MCU's. This _is_ available on the RP2040 */
 #define SERIAL_USART_PIN_SWAP
