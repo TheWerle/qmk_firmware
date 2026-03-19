@@ -23,25 +23,9 @@
 #define I2C1_SDA_PIN GP6
 #define I2C1_SCL_PIN GP7
 
-#ifdef OLED_ENABLE
-#    define OLED_DISPLAY_128X64
-#    define OLED_TIMEOUT 30000
-#endif
+#define OLED_DISPLAY_128X64
+#define OLED_TIMEOUT 30000
 
-/* Encoder settings */
-#ifdef ENCODER_MAP_ENABLE
-#    define ENCODER_MAP_KEY_DELAY 10
-#endif
+#define ENCODER_MAP_KEY_DELAY 10
 
-#ifdef RGB_MATRIX_ENABLE
-#    define RGB_MATRIX_TYPING_HEATMAP_DECREASE_DELAY_MS 50
-/* If you're setting colors per key, this is required */
-#    define SPLIT_LAYER_STATE_ENABLE
-/* Turns off RGB effects when there is no longer a USB connection */
-#    define RGB_DISABLE_WHEN_USB_SUSPENDED
-#endif
-
-/* Allows for more than the default 4 layers in VIA. */
-#ifndef DYNAMIC_KEYMAP_LAYER_COUNT
-#    define DYNAMIC_KEYMAP_LAYER_COUNT 5
-#endif
+#define RGB_MATRIX_TYPING_HEATMAP_DECREASE_DELAY_MS 50
